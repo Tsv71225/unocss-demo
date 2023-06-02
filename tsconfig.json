@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES6",
+        "experimentalDecorators": true,
+        "noImplicitAny": false, // 支持类型不标注可以默认any
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "allowJs": true,
+        "checkJs": false,
+        "lib": ["ESNext", "DOM"],
+        "noImplicitThis": true,
+        "baseUrl": "./",
+        "outDir": "./dist/",
+        "paths": {
+            "@/*": ["./src/*"],
+        }
+    },
+    "exclude": ["node_modules", "dist"]
+}
